@@ -17,3 +17,4 @@ class BankCard:
     @staticmethod
     def is_valid_card_number(number):
         if len(number) == 16:
+            return True
